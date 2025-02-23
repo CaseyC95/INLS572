@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INLS509 - Information Retrieval</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .inls509-title {
+            font-family: 'Press Start 2P', cursive;
+            color: rgb(1, 1, 23);
+            font-size: 3em;
+            text-align: center;
+            padding: 20px;
+            background-color: #69adf1;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #000;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 18px;
+            background-color: #222;
+            border-radius: 12px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+            transform: scale(1.05);
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 800px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .nested-flex-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .nested-box {
+            flex: 1;
+            background-color: #e6f7ff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            text-align: center;
+            min-width: 150px;
+        }
+        section {
+            background: linear-gradient(135deg, #fef7f7, #e6f7ff);
+            border: 3px solid #69adf1;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #355f89;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1 class="inls509-title">INLS509 - Information Retrieval</h1>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="inls572.html">INLS572</a></li>
+        <li><a href="inls534.html">INLS534</a></li>
+        <li><a href="inls520.html">INLS520</a></li>
+        <li><a href="inls509.html" class="active">INLS509</a></li>
+        <li><a href="inls613.html">INLS613</a></li>
+        <li><a href="inls582.html">INLS582</a></li>
+        <li><a href="inls523.html">INLS523</a></li>
+        <li><a href="inls560.html">INLS560</a></li>
+        <li><a href="inls500.html">INLS500</a></li>
+        <li><a href="inls490AI.html">INLS490</a></li>
+    </ul>
+</nav>
+
+<div class="image-container">
+    <img src="images/IR raccoon.jpeg" alt="INLS509 Course Image">
+</div>
+
+<div class="main-content">
+    <section>
+        <h2>About INLS509</h2>
+        <p>Focusing on information retrieval systems, this course dives into algorithms used to search for and retrieve data. This course also explains index and ranking evaluation based on query and text in documents</p>
+    </section>
+
+    <section class="nested-flex-container">
+        <div class="nested-box">TF/IDF</div>
+        <div class="nested-box">Vector Spaces   
+            </div>
+        <div class="nested-box">Naive Bases</div>
+        <div class="nested-box">TF/IDF & Zipf's Law</div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Casey Couillard. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
